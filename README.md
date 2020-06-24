@@ -14,7 +14,7 @@
   
   The three motors are controlled by a joystick.  The x-axis controls the 1st stepper motor, the y-axis controls the second, and the switch controls the z-axis.  The z-axis goes up while the button is pressed, and goes down while not pressed.  The schematic of the electronics is as follows:
   
-  ![(Fig. 1: Full mechanism assembly)](ElectronicsSchematic.jpg)
+  ![(Fig. 2: Electronics schematic)](ElectronicsSchematic.jpg)
   
   
   The stepper motors each have four pins connected to the Arduino, and are connected to +5V and GND of the power source.  Stepper X is connected to pins 6, 7, 8, and 9.  Stepper Y is connected to 10, 11, 12, and 13.  The DC motor is connected to pins 3 and 4 on the Arduino board.  It is connected via the L293D chip, as demonstrated in class.  The joystick is connected to analog pins A0 (for x) and A1 (for y), and digital pin 0 on the Arduino.  The code for this mechanism is located in the PHYS3500_FinalProject.ino file.
